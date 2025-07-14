@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Obrigado pela sua compra | Kiwify</title>
+
+  <!-- Fonte Montserrat do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --kiwify-green: #2DB56F;
+      --text-color: #333;
+      --bg-color: #f9f9f9;
+      --font: 'Montserrat', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-color);
+      font-family: var(--font);
+      color: var(--text-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+      max-width: 500px;
+      text-align: center;
+    }
+
+    h1 {
+      color: var(--kiwify-green);
+      font-size: 2em;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      font-weight: 400;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      background-color: var(--kiwify-green);
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #239e60;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Obrigado pela sua compra! 🍃</h1>
+    <p>Você receberá um e-mail com os detalhes do seu pedido em instantes.<br/>
+    Fique atento à sua caixa de entrada e aproveite ao máximo seu conteúdo.</p>
+    <a class="button" href="https://kiwify.com.br">Voltar para o site</a>
+  </div>
+</body>
+</html>
